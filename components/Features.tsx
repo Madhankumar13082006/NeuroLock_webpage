@@ -11,37 +11,37 @@ const features = [
     icon: Timer,
     title: "App Time Limits",
     description:
-      "Set daily caps on specific apps. When the limit is reached, NeuroLock steps in with a gentle, intentional pause.",
+      "Set how many minutes per day you want to spend on Instagram, YouTube, or TikTok. When time is up, NeuroLock steps in with a gentle reminder.",
   },
   {
     icon: Lock,
     title: "PIN Friction Lock",
     description:
-      "Unlock addictive apps only after entering a PIN — a small act of intention that breaks the automatic scroll reflex.",
+      "Ask a friend to set a PIN for your apps. You have to enter it before opening them. That 5-second pause is often all it takes to stop mindless scrolling.",
   },
   {
     icon: BellOff,
     title: "Distraction-Free Mode",
     description:
-      "One tap to enter deep focus. Selected apps go quiet so your attention can go somewhere that matters.",
+      "One tap and your distracting apps go silent. Use it when you need to study, work, or just be present without your phone pulling you away.",
   },
   {
     icon: BarChart2,
     title: "Awareness Dashboard",
     description:
-      "See where your attention has been — without judgment. Patterns become visible only when you can see them.",
+      "See exactly how many hours you spend on each app, every day. No blame, no shame — just honest numbers so you can decide what to change.",
   },
   {
     icon: Fingerprint,
     title: "On-Device Only",
     description:
-      "All data stays on your phone. No servers. No profiles. No selling your habits. Your mind is not a product.",
+      "Everything stays on your phone. We never collect it, share it, or sell it. Your habits are yours and nobody else will ever see them.",
   },
   {
     icon: HeartHandshake,
     title: "Built With Compassion",
     description:
-      "No shame. No streaks. No badges. NeuroLock is not here to judge your habits — it&apos;s here to help you see them.",
+      "No streaks to maintain. No shame when you slip up. NeuroLock is just a helpful tool — not a strict parent, not a judge.",
   },
 ];
 

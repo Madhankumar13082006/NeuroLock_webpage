@@ -39,10 +39,10 @@ export default function Hero({ onDownload }: HeroProps) {
       />
 
       <div className="relative max-w-6xl mx-auto px-5 sm:px-6 pt-24 pb-14 sm:pt-28 sm:pb-16 w-full">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* Left — copy */}
-          <div className="flex flex-col gap-5 sm:gap-7">
+          <div className="flex flex-col gap-5 sm:gap-7 text-center lg:text-left items-center lg:items-start">
             <motion.div
               custom={0} variants={fadeUp} initial="hidden" animate="show"
               className="inline-flex items-center gap-2 w-fit px-4 py-1.5 bg-indigo-500/10 border border-indigo-500/20 rounded-full"
@@ -66,9 +66,9 @@ export default function Hero({ onDownload }: HeroProps) {
               custom={2} variants={fadeUp} initial="hidden" animate="show"
               className="text-base sm:text-lg text-slate-400 leading-relaxed max-w-md"
             >
-              NeuroLock gently introduces friction between you and addictive
-              short-form content — giving you back the one thing no app has ever
-              offered: a real pause to choose.
+              You open YouTube for &ldquo;2 minutes.&rdquo; An hour later,
+              you&apos;re still scrolling. NeuroLock adds a short pause before
+              you enter those apps — so you actually decide before you scroll.
             </motion.p>
 
             <motion.p
@@ -99,7 +99,7 @@ export default function Hero({ onDownload }: HeroProps) {
 
             <motion.div
               custom={5} variants={fadeUp} initial="hidden" animate="show"
-              className="flex flex-wrap gap-4 pt-1"
+              className="flex flex-wrap gap-4 pt-1 justify-center lg:justify-start"
             >
               {["No tracking", "No personal data", "You stay in control"].map((item) => (
                 <div key={item} className="flex items-center gap-1.5 text-slate-500 text-xs sm:text-sm">

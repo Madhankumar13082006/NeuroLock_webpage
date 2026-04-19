@@ -37,12 +37,12 @@ export default function Vision() {
             <div>
               <p className="text-indigo-400 text-xs font-semibold uppercase tracking-widest mb-2">Mission</p>
               <h3 className="text-slate-100 text-xl sm:text-2xl font-bold leading-snug mb-3">
-                Give people back the pause they&apos;ve lost.
+                Help you use your phone less mindlessly.
               </h3>
               <p className="text-slate-400 text-sm leading-relaxed">
-                Short-form video apps are designed to eliminate friction and maximize consumption.
-                NeuroLock exists to restore what they removed — the moment between impulse and action.
-                A breath. A pause. A choice that is genuinely yours.
+                Apps like Instagram and TikTok are built to keep you hooked for as long as possible.
+                NeuroLock gives you one small pause before you open those apps —
+                so you&apos;re choosing to scroll, not just doing it automatically.
               </p>
             </div>
           </motion.div>
@@ -59,12 +59,12 @@ export default function Vision() {
             <div>
               <p className="text-indigo-300 text-xs font-semibold uppercase tracking-widest mb-2">Vision</p>
               <h3 className="text-slate-100 text-xl sm:text-2xl font-bold leading-snug mb-3">
-                A world where you use technology — not the other way around.
+                Use your phone — don&apos;t let it use you.
               </h3>
               <p className="text-indigo-100/70 text-sm leading-relaxed">
-                We believe the future of digital wellness isn&apos;t about blocking apps or lecturing users.
-                It&apos;s about designing tools that make awareness feel natural and effortless — so that
-                every screen opens with intention, not compulsion.
+                We&apos;re not here to block your apps or tell you off.
+                We just want to give you one small moment to think before you scroll.
+                That&apos;s it. Simple as that.
               </p>
             </div>
           </motion.div>
@@ -77,10 +77,10 @@ export default function Vision() {
           className="text-center max-w-2xl mx-auto mb-10 sm:mb-14 px-2"
         >
           <blockquote className="text-lg sm:text-2xl lg:text-3xl text-slate-300 font-light leading-relaxed">
-            &ldquo;The problem isn&apos;t that you scroll too much.
+            &ldquo;You don&apos;t scroll too much because you&apos;re weak.
             <br />
             <span className="text-indigo-400">
-              The problem is that you never had a chance to choose.&rdquo;
+              You scroll because nobody gave you a reason to stop.&rdquo;
             </span>
           </blockquote>
         </motion.div>

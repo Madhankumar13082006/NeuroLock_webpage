@@ -48,22 +48,12 @@ export default function DownloadCTA({ onDownload }: DownloadCTAProps) {
               transition={{ delay: 0.2, duration: 0.6, ease }}
               className="text-4xl sm:text-5xl font-bold text-slate-100 mb-5 leading-tight tracking-tight"
             >
-              Your attention
+              Your time.
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-violet-400">
-                belongs to you.
+                Take it back.
               </span>
             </motion.h2>
-
-            {/* Emotional interruption */}
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={inView ? { opacity: 1 } : {}}
-              transition={{ delay: 0.3 }}
-              className="text-indigo-400/80 text-base italic mb-4"
-            >
-              &ldquo;This moment is your choice.&rdquo;
-            </motion.p>
 
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -71,8 +61,8 @@ export default function DownloadCTA({ onDownload }: DownloadCTAProps) {
               transition={{ delay: 0.35 }}
               className="text-slate-400 text-lg max-w-xl mx-auto mb-10 leading-relaxed"
             >
-              Download NeuroLock today and take the first intentional step toward
-              a calmer, more focused digital life.
+              Download NeuroLock for free. Start spending less time on apps
+              that don&apos;t really make you happy — and more time on things that do.
             </motion.p>
 
             <motion.div
