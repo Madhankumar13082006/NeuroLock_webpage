@@ -15,13 +15,13 @@ export default function DownloadCTA({ onDownload }: DownloadCTAProps) {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section ref={ref} className="py-28 bg-[#030712]">
+    <section ref={ref} className="py-16 sm:py-24 bg-[#030712]">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease }}
-          className="relative bg-gradient-to-b from-[#0c1426] to-[#0a1020] border border-[#1e3a5f] rounded-3xl overflow-hidden px-8 py-16 sm:px-16"
+          className="relative bg-gradient-to-b from-[#0c1426] to-[#0a1020] border border-[#1e3a5f] rounded-3xl overflow-hidden px-6 py-12 sm:px-16 sm:py-16"
         >
           {/* Glow */}
           <div className="absolute inset-0 pointer-events-none">

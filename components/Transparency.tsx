@@ -303,7 +303,7 @@ export default function Transparency() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="transparency" ref={ref} className="py-28 bg-[#030712]">
+    <section id="transparency" ref={ref} className="py-16 sm:py-24 bg-[#030712]">
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
         <motion.div

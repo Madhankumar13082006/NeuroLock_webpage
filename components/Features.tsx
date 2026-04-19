@@ -50,14 +50,14 @@ export default function Features() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="features" ref={ref} className="py-28 bg-[#030712]">
+    <section id="features" ref={ref} className="py-16 sm:py-24 bg-[#030712]">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease }}
-          className="text-center mb-16 max-w-2xl mx-auto"
+          className="text-center mb-10 sm:mb-16 max-w-2xl mx-auto"
         >
           <span className="px-4 py-1.5 bg-[#0c1426] border border-[#1e3a5f] rounded-full text-slate-400 text-sm font-medium">
             Built for awareness

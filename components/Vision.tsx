@@ -11,14 +11,14 @@ export default function Vision() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="vision" ref={ref} className="py-28 bg-[#030712]">
+    <section id="vision" ref={ref} className="py-16 sm:py-24 bg-[#030712]">
       <div className="max-w-6xl mx-auto px-6">
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease }}
-          className="flex justify-center mb-16"
+          className="flex justify-center mb-10 sm:mb-16"
         >
           <span className="px-4 py-1.5 bg-[#0c1426] border border-[#1e3a5f] rounded-full text-slate-400 text-sm font-medium">
             Why NeuroLock exists
@@ -84,7 +84,7 @@ export default function Vision() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.35, ease }}
-          className="text-center max-w-3xl mx-auto mb-20"
+          className="text-center max-w-3xl mx-auto mb-12 sm:mb-20"
         >
           <blockquote className="text-2xl sm:text-3xl text-slate-300 font-light leading-relaxed">
             &ldquo;The problem isn&apos;t that you scroll too much.
