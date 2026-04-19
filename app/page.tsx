@@ -34,8 +34,8 @@ export default function Home() {
         <Hero onDownload={openModal} />
         <Vision />
         <HowItWorks />
-        <Features />
         <Gallery />
+        <Features />
         <Trust />
         <Transparency />
         <DownloadCTA onDownload={openModal} />

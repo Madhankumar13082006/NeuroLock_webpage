@@ -11,12 +11,11 @@ const ease = [0.22, 1, 0.36, 1] as [number, number, number, number];
 const screenshots = [
   { src: "/images/2.jpg",  alt: "Create Account",             step: "01" },
   { src: "/images/1.jpg",  alt: "Sign In",                    step: "02" },
-  { src: "/images/9.jpg",  alt: "Enable Accessibility",       step: "03" },
-  { src: "/images/3.jpg",  alt: "Dashboard — Block Apps",     step: "04" },
-  { src: "/images/4.jpg",  alt: "Invite Trusted Friend",      step: "05" },
-  { src: "/images/7.jpg",  alt: "Friend Sets Your PIN",       step: "06" },
-  { src: "/images/6.jpg",  alt: "App Blocked — Pause Moment", step: "07" },
-  { src: "/images/8.jpg",  alt: "Mindfulness Screen",         step: "08" },
+  { src: "/images/3.jpg",  alt: "Dashboard — Block Apps",     step: "03" },
+  { src: "/images/4.jpg",  alt: "Invite Trusted Friend",      step: "04" },
+  { src: "/images/7.jpg",  alt: "Friend Sets Your PIN",       step: "05" },
+  { src: "/images/6.jpg",  alt: "App Blocked — Pause Moment", step: "06" },
+  { src: "/images/8.jpg",  alt: "Mindfulness Screen",         step: "07" },
 ];
 
 export default function Gallery() {

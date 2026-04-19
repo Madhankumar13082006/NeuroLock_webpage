@@ -87,15 +87,53 @@ export default function HowItWorks() {
           })}
         </div>
 
+        {/* Trusted PIN callout */}
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ delay: 0.6 }}
-          className="text-center mt-10"
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.5, ease }}
+          className="mt-6 bg-gradient-to-br from-[#0c1426] to-indigo-950/30 border border-indigo-500/25 rounded-2xl p-6 sm:p-8"
         >
-          <p className="text-slate-600 text-sm italic">
-            &ldquo;Awareness is not a punishment. It&apos;s a gift you give yourself.&rdquo;
-          </p>
+          <div className="flex items-center gap-2 mb-5">
+            <span className="w-2 h-2 bg-indigo-400 rounded-full" />
+            <p className="text-indigo-300 text-xs font-semibold uppercase tracking-widest">
+              The PIN trick — why it actually works
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+            <div className="flex flex-col gap-2">
+              <span className="text-slate-700 text-3xl font-black">01</span>
+              <p className="text-slate-100 font-semibold">You send a link to someone you trust</p>
+              <p className="text-slate-400 leading-relaxed">
+                A friend, parent, or partner. You tap one button and NeuroLock sends them a
+                private invite link. No account needed on their end.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="text-slate-700 text-3xl font-black">02</span>
+              <p className="text-slate-100 font-semibold">They set a PIN — only they know it</p>
+              <p className="text-slate-400 leading-relaxed">
+                Your trusted person opens the link and sets a PIN for your blocked apps.
+                You never see it. It expires after 24 hours for safety.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="text-slate-700 text-3xl font-black">03</span>
+              <p className="text-slate-100 font-semibold">The app asks for that PIN every time</p>
+              <p className="text-slate-400 leading-relaxed">
+                To open Instagram or YouTube, you need to type the PIN. Most of the time,
+                you won&apos;t bother texting your friend to ask — and that small hesitation
+                is enough to break the habit. You&apos;ll only ask in a real emergency.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-6 pt-5 border-t border-indigo-500/15">
+            <p className="text-indigo-300/70 text-sm italic text-center">
+              &ldquo;The hardest part of stopping isn&apos;t willpower — it&apos;s having one reason to pause.&rdquo;
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>
