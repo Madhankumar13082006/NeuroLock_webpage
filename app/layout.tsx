@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 
@@ -29,24 +29,18 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "NeuroLock — Reclaim Your Attention",
-    description:
-      "Pause. Reflect. Choose. NeuroLock gives your attention back to you.",
+    description: "Pause. Reflect. Choose. NeuroLock gives your attention back to you.",
   },
 };
 
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-  themeColor: "#030712",
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${geist.variable} scroll-smooth`}>
+      <head>
+        {/* Explicit viewport — ensures phones render at device width, not 980px */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+        <meta name="theme-color" content="#030712" />
+      </head>
       <body className="min-h-screen antialiased">{children}</body>
     </html>
   );

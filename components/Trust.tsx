@@ -81,7 +81,7 @@ export default function Trust() {
         </motion.div>
 
         {/* Trust points */}
-        <div className="grid sm:grid-cols-3 gap-4 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
           {trustPoints.map((point, i) => {
             const Icon = point.icon;
             return (
@@ -107,7 +107,7 @@ export default function Trust() {
         </div>
 
         {/* Testimonials */}
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {testimonials.map((t, i) => (
             <motion.div
               key={t.name}

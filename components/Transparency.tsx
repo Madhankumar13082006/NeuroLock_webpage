@@ -129,7 +129,7 @@ const faqs = [
           and can see which apps you open. Here is exactly what NeuroLock does
           and does not do with that access:
         </p>
-        <div className="grid sm:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div className="bg-[#030712] border border-emerald-500/15 rounded-xl p-4">
             <p className="text-emerald-400 font-semibold text-xs uppercase tracking-widest mb-2">
               What happens on your device
@@ -387,7 +387,7 @@ export default function Transparency() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-0">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
             {/* Screenshot */}
             <div className="relative border-b lg:border-b-0 lg:border-r border-[#1e3a5f]/60">
               <div className="relative w-full aspect-[4/3] bg-[#030712]">

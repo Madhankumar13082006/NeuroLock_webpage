@@ -66,7 +66,7 @@ export default function Gallery() {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex gap-5 overflow-x-auto px-20 pb-6"
+          className="flex gap-5 overflow-x-auto px-4 sm:px-20 pb-6"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {screenshots.map((shot, i) => (
